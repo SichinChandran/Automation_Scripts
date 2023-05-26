@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="Lainas_home.Lainas">
+        <methods>
+          <include name="form"/>
+          <include name="foodizonecrossbrowsertesting"/>
+          <include name="socialmedia"/>
+          <include name="field_Name_Validations"/>
+          <include name="open"/>
+        </methods>
+      </class> <!-- Lainas_home.Lainas -->
+    </classes>
+  </test> <!-- Test(failed) -->
+  <test thread-count="5" name="edgetestcase(failed)">
+    <parameter name="Browser" value="Microsoft Edge"/>
+    <classes>
+      <class name="Lainas_home.Lainas">
+        <methods>
+          <include name="form"/>
+          <include name="foodizonecrossbrowsertesting"/>
+          <include name="socialmedia"/>
+          <include name="field_Name_Validations"/>
+          <include name="open"/>
+        </methods>
+      </class> <!-- Lainas_home.Lainas -->
+    </classes>
+  </test> <!-- edgetestcase(failed) -->
+</suite> <!-- Failed suite [Suite] -->
