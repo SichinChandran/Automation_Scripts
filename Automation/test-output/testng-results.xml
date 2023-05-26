@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-05-24T17:20:36 IST" name="Default suite" finished-at="2023-05-24T17:21:42 IST" duration-ms="66046">
+    <groups>
+    </groups>
+    <test started-at="2023-05-24T17:20:36 IST" name="Default test" finished-at="2023-05-24T17:21:42 IST" duration-ms="66046">
+      <class name="Practice.amazon">
+        <test-method is-config="true" signature="setup()[pri:0, instance:Practice.amazon@1e1a0406]" started-at="2023-05-24T17:20:36 IST" name="setup" finished-at="2023-05-24T17:20:49 IST" duration-ms="13381" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="url()[pri:0, instance:Practice.amazon@1e1a0406]" started-at="2023-05-24T17:20:49 IST" name="url" finished-at="2023-05-24T17:21:01 IST" duration-ms="12284" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- url -->
+        <test-method signature="load()[pri:0, instance:Practice.amazon@1e1a0406]" started-at="2023-05-24T17:21:01 IST" name="load" finished-at="2023-05-24T17:21:42 IST" duration-ms="40295" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- load -->
+      </class> <!-- Practice.amazon -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
